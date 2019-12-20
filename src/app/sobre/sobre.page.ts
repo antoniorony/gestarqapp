@@ -10,6 +10,9 @@ export class SobrePage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  	
   }
+
+
 
 }

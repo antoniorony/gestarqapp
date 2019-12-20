@@ -1,29 +1,31 @@
 <ion-header >
   <ion-toolbar >
-    <ion-title style="background-color: rgb(255, 91, 91); color:rgb(247, 247, 247); padding: 30px; ">
+    <ion-title class="titulo">
       <ion-avatar>
         <img src="../../assets/l1.png"> 
       </ion-avatar>
-      <span style="position: relative; float: right; margin-top: -50px;">GESTARQ 1.0 </span>
+      <span class="spanLogin">GESTARQ 1.0 </span>
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
   
 <ion-content >
 <br>
-<div style="margin:10px;">
-<h2 style="text-align: center; color:rgb(255, 91, 91);">Login</h2>
-    <ion-label color="primary" style="margin-top: 10px; color:rgb(255, 91, 91);">E-mail</ion-label>
+<div class="divLogin">
+<h2 class="h2Login">Login</h2>
+    <ion-label color="primary" class="labelEMail">E-mail</ion-label>
     <ion-input placeholder="youremail@email.com"></ion-input>
-    <ion-label color="primary" style="color:rgb(255, 91, 91);">Senha</ion-label>
+    <ion-label color="primary" class="corVermelha">Senha</ion-label>
     <ion-input type="password" placeholder="password"></ion-input>
-    <ion-button expand="full" style="color:rgb(255, 91, 91);" fill="outline">Acessar</ion-button>
+    <ion-button expand="full" class="corVermelha" fill="outline">Acessar</ion-button>
+
   </div> 
 
 </ion-content>
-<ion-footer style="background-color: rgb(255, 91, 91); color:rgb(247, 247, 247); padding: 30px; ">
-  <ion-toolbar  style="background-color: rgb(255, 91, 91); color:rgb(0, 0, 0); padding: 30px; "> 
+<ion-footer class="footer">
+  <ion-toolbar  class="footer"> 
     <ion-title>© 2019 - Tecinova </ion-title>
+    <a href="/sobre">Nos conheça clicando aqui!</a>
   </ion-toolbar>
 </ion-footer>
+<router-outlet></router-outlet>

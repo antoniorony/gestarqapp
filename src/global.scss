@@ -24,3 +24,36 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.spanSobre{
+	 font-size: 22px;
+}
+.spanLogin{
+	position: relative; float: right; margin-top: -50px;
+}
+.footer{
+	background-color: rgb(255, 91, 91); color:rgb(247, 247, 247); padding: 30px; 
+}
+.titulo{
+	background-color: rgb(255, 91, 91);
+	color:rgb(247, 247, 247); 
+	padding: 30px; 
+}
+.link{
+	position: relative; 
+	float: right; 
+	text-decoration: none; 
+	color: #fff;
+}
+.divLogin{
+	margin:10px;
+}
+.h2Login{
+	text-align: center; color:rgb(255, 91, 91);
+}
+.labelEMail{
+	margin-top: 10px; color:rgb(255, 91, 91);
+}
+.corVermelha{
+	color:rgb(255, 91, 91);
+}
